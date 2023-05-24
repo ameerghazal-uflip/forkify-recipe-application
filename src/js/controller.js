@@ -212,8 +212,6 @@ const controlEditIngredient = async function () {
   }
 };
 
-console.log('hello');
-
 // loops over to add the eventListener
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
