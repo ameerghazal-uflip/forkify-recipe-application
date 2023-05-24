@@ -2347,8 +2347,8 @@ Final Considerations and JS Docs
   - git merge ___: is followed by the branch name to be merged with the current branch (e.g. on master and merge excess from section 18)
   - git cheatsheet on git and github!!!
   - touch README.md: creates a readMe file. To add a name to it, use a # followed by words/
-  -
-  -
+  - usually we add a readme and git ignore. Then we pull the repo onto the computer.
+  - Continous Integration: connects a site to a git repo, and when something is changed in the repo, it is rebuilt.
 
 
 */

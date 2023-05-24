@@ -14,10 +14,6 @@ import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 import shoppingListView from './views/shoppingListView.js';
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1); // ur; hash
@@ -215,6 +211,8 @@ const controlEditIngredient = async function () {
     console.error(error);
   }
 };
+
+console.log('hello');
 
 // loops over to add the eventListener
 const init = function () {
